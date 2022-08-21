@@ -11,7 +11,10 @@ create table user_table(
 	,user_name varchar(25)
 	,foreign key (email) references user_login(email)
 );
-
+/*
+Extra table created to map role to role id and then role to user 
+role table 
+*/
 create table role(
 	 role_id varchar(25) primary key
 	,role_name varchar(25)
