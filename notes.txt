@@ -1,0 +1,9 @@
+views		are for routing
+main 		is where app runs
+init		is where app is declared
+
+blueprint 	allows us to have routes in multiple files
+
+
+
+
